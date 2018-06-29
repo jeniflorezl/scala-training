@@ -1,27 +1,40 @@
+[0m[[0m[0mdebug[0m] [0m[0mThe Point has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(copy$default$2,[Default]), UsedName($init$,[Default]), UsedName(copy,[Default]), UsedName(productArity,[Default]), UsedName(x,[Default]), UsedName(productElement,[Default]), UsedName(productPrefix,[Default]), UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(unapply,[Default]), UsedName(productIterator,[Default]), UsedName(y,[Default]), UsedName(copy$default$1,[Default]), UsedName(apply,[Default]), UsedName(canEqual,[Default]), UsedName(Point,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0m[0mdebug[0m] [0m[0mFiles invalidated by inheriting from (external) Point: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting direct dependencies of all classes transitively invalidated by inheritance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting classes that directly depend on (external) Point.[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of PointTest: Set(UsedName(apply,[Default]), UsedName(Point,[Default]))[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\Jeniflorezl\Documents\Seven4n\scala-training\src\test\scala\helloWorld.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/s4n/Documents/scala-training/src/test/scala/SetsTest.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set(NamesChange(Point,ModifiedNames(changes = UsedName(copy$default$2,[Default]), UsedName($init$,[Default]), UsedName(copy,[Default]), UsedName(productArity,[Default]), UsedName(x,[Default]), UsedName(productElement,[Default]), UsedName(productPrefix,[Default]), UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(unapply,[Default]), UsedName(productIterator,[Default]), UsedName(y,[Default]), UsedName(copy$default$1,[Default]), UsedName(apply,[Default]), UsedName(canEqual,[Default]), UsedName(Point,[Default]))))[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(helloWorld, helloWorld.HelloWorld)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(SetsTest)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll sources are invalidated.[0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\Users\Jeniflorezl\Documents\Seven4n\scala-training\target\scala-2.12\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set(PointTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(SetsTest, PointTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/s4n/Documents/scala-training/src/test/scala/SetsTest.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/s4n/Documents/scala-training/target/scala-2.12/test-classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 207b271b for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3ce44b14 for Scala compiler version 2.12.6[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_171\lib\resources.jar;C:\Program Files\Java\jre1.8.0_171\lib\rt.jar;C:\Program Files\Java\jre1.8.0_171\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_171\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_171\lib\jce.jar;C:\Program Files\Java\jre1.8.0_171\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_171\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_171\classes;C:\Users\Jeniflorezl\.sbt\boot\scala-2.12.6\lib\scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/s4n/.sbt/boot/scala-2.12.6/lib/scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Jeniflorezl\Documents\Seven4n\scala-training\target\scala-2.12\test-classes;C:\Users\Jeniflorezl\Documents\Seven4n\scala-training\target\scala-2.12\classes;C:\Users\Jeniflorezl\.ivy2\cache\org.scalatest\scalatest_2.12\bundles\scalatest_2.12-3.0.5.jar;C:\Users\Jeniflorezl\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.0.5.jar;C:\Users\Jeniflorezl\.sbt\boot\scala-2.12.6\lib\scala-reflect.jar;C:\Users\Jeniflorezl\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.542467622 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/s4n/Documents/scala-training/target/scala-2.12/test-classes:/home/s4n/Documents/scala-training/target/scala-2.12/classes:/home/s4n/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.1.0.jar:/home/s4n/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.5.jar:/home/s4n/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.5.jar:/home/s4n/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar:/home/s4n/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.413344916 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
