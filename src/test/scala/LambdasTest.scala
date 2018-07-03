@@ -52,6 +52,7 @@ class LambdasTest extends FunSuite {
 
     def closure = (x: Int) => x + incrementer
 
+    //enviar lambda como parametro
     val result = summation(10, closure)
 
     assert(result == 13)

@@ -39,7 +39,7 @@ class MapsTest extends FunSuite{
   }
 
   test("mixed type"){
-    val myMap = Map("Ann Arbor" → "MI", 49931 → "MI")
+    val myMap = Map("Ann Arbor" -> "MI", 49931 -> "MI")
     myMap("Ann Arbor") should be("MI")
     myMap(49931) should be("MI")
   }
@@ -75,7 +75,7 @@ class MapsTest extends FunSuite{
 
   test("removing no exist key from map"){
     val myMap =
-      Map("MI" → "Michigan", "OH" → "Ohio", "WI" → "Wisconsin", "IA" → "Iowa")
+      Map("MI" -> "Michigan", "OH" -> "Ohio", "WI" -> "Wisconsin", "IA" -> "Iowa")
     val aNewMap = myMap - "MN"
 
     aNewMap.equals(myMap) should be(true)
