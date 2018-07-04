@@ -1,24 +1,46 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TuplesTest, org.scalatest.tools.Framework$$anon$1@751207c8, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CubeCalculatorTest, org.scalatest.tools.Framework$$anon$1@751207c8, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MapsTest, org.scalatest.tools.Framework$$anon$1@751207c8, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ListsTest, org.scalatest.tools.Framework$$anon$1@751207c8, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PointTest, org.scalatest.tools.Framework$$anon$1@751207c8, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(LambdasTest, org.scalatest.tools.Framework$$anon$1@751207c8, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SetsTest, org.scalatest.tools.Framework$$anon$1@751207c8, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(OptionsTest, org.scalatest.tools.Framework$$anon$1@751207c8, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ObjectsClass, org.scalatest.tools.Framework$$anon$1@751207c8, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 202 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 32[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 9, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 32, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ObjectsClass, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CubeCalculatorTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CaseClassesTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FormattinTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ImplicitsTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PatternMatchingTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(OptionsTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PartialFunctionsTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(LambdasTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ScalaSyntax, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PointTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SetsTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TreeTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MapsTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PartiallyAppliedFunctionsTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TuplesTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(RangesTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(GenericClassTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ListsTest, org.scalatest.tools.Framework$$anon$1@11d6c04c, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 720 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 62[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 19, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 61, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GenericClassTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	OptionsTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PointTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PartialFunctionsTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	TuplesTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	CubeCalculatorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PatternMatchingTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	SetsTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	MapsTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ObjectsClass[0m
+[0m[[0m[0mdebug[0m] [0m[0m	FormattinTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RangesTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	LambdasTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ScalaSyntax[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PartiallyAppliedFunctionsTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TreeTest[0m
 [0m[[0m[0mdebug[0m] [0m[0m	ListsTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ImplicitsTest[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	CaseClassesTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

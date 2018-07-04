@@ -1,4 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/s4n/Documents/scala-training/src/test/scala/PointTest.scala:7:11: comparing values of types (Int, Int) and Point using `==' will always yield false[0m
-[0m[[0m[33mwarn[0m] [0m[0m    assert((1,2)==point)[0m
-[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Documents/scala-training/src/test/scala/ForExpressionsTests.scala:68:13: value map is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m      x <- x+1[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

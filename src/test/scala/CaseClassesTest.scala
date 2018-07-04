@@ -115,10 +115,12 @@ class CaseClassesTest extends FunSuite{
     parts._4 should be("1123-233-9")
   }
 
+  class Person3(first: String, last: String)
+
   test("is serializable?"){
     val p1 = Person("Camilo", "Suarez")
     p1.isInstanceOf[Serializable] should be(true)
-    val p2 = new Person("Camilo", "Suarez")
+    val p2 = new Person3("Camilo", "Suarez")
     p2.isInstanceOf[Serializable] should be(false)
   }
 
