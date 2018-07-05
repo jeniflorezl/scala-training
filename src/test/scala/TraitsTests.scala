@@ -1,6 +1,8 @@
 import org.scalatest.FunSuite
 import org.scalatest.Matchers._
 
+import scala.collection.mutable.ArrayBuffer
+
 class TraitsTests extends FunSuite{
 
   test("using traits"){
@@ -78,6 +80,85 @@ class TraitsTests extends FunSuite{
     assertDoesNotCompile("val a = new A")
     val obj = new A with B
     (obj.bId + ", " + obj.aId) should be("holi, como estas")
+
+  }
+
+  test("traits 2 "){
+    trait Operator{
+      def sum(a: Int, b: Int): Int
+    }
+
+    trait Operator2{
+      def mul(a: Int, b: Int): Int = a * b
+    }
+
+    class Operacion extends Operator{
+      override def sum(a: Int, b: Int): Int = a + b
+    }
+
+    class OperacionModify(private var x: Int, private var y: Int) extends Operator{
+      override def sum(a: Int, b: Int): Int = a + b - (x + y)
+    }
+
+    class OperacionNew extends Operator2
+
+    val result = new Operacion
+    result.sum(3,4) should be(7)
+
+    val result2 = new OperacionModify(7,8)
+    result2.sum(3,4) should be(-8)
+
+    val result3 = new OperacionNew
+    result3.mul(3,2) should be(6)
+
+  }
+
+  test("tratis 3"){
+    trait Partner{
+      val name: String
+      val age: Int
+    }
+
+    class Person2(val name: String, val age: Int) extends Partner
+
+    val person1 = new Person2("Angela", 24)
+    val person2 = new Person2("Carlos", 22)
+
+    val partners = ArrayBuffer.empty[Partner]
+    partners.append(person1)
+    partners.append(person2)
+    println(partners)
+    partners.foreach(partner => println(partner.name + " " + partner.age))
+  }
+
+
+
+
+  test("mixins 2"){
+    abstract class Iterator{
+      type T
+      def hasNext: Boolean
+      def next(): T
+    }
+
+    class StringIterator(s: String) extends Iterator{
+      type T = Char
+      private var contador = 0
+      def hasNext = contador < s.length
+      def next() = {
+        val ch = s charAt(contador)
+        contador += 1
+        ch
+      }
+    }
+
+    trait RichIterator extends Iterator{
+      def foreach(f: T => Unit) = while(hasNext) f(next())
+    }
+
+    class StringRichIterator extends StringIterator("Scala") with RichIterator
+    val richString = new StringRichIterator
+    richString foreach println
 
   }
 

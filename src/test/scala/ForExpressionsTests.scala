@@ -60,14 +60,8 @@ class ForExpressionsTests extends FunSuite{
 
   test("removing odd positions"){
     val lis = List(1,2,3,4,4)
-    val indices = lis.indices
-    val result = ((lis zip indices).filterNot(c => c._2 % 2 == 0)).map(x => x._1)
-    println("result "+ result)
-   /* println("indices"+indices)
-    val result2 = result.filterNot( c => c._2 % 2 == 0)
-    println("result2"+result2)
-    val result3 = result2.map(x => x._1)
-    println(result3)*/
+    val result = (lis zipWithIndex).collect{ case (n, index) if index % 2 != 0 => n }
+    result should be(List(2,4))
   }
 
 

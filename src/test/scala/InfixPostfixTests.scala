@@ -16,14 +16,27 @@ class InfixPostfixTests extends FunSuite{
     (g +(4)) should be(7)
     g.+(4) should be(7)
 
+    //it does not infix operator
     println(str indexOf('o', 0))
 
-    val x: Int = 10
-    println(x toHexString)
+  }
 
-    val list = List(1,2,3,4,4,6,7,8)
-    val list2 = list.filterNot(x => list.indexOf(x) % 2 == 0)
-    println(list2)
+  //does not have parameters, + - ! ~
+  test("postfix operator"){
+
+    //postfix
+    val x: Int = 31
+    println(x toHexString)
+    println((-x))
+
+    class MyPerson{
+      def unary_+ = "Hola"
+      def unary_- = "Chao"
+    }
+
+    val person = new MyPerson
+    +person should be("Hola")
+    -person should be("Chao")
   }
 
 }

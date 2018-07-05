@@ -78,6 +78,7 @@ class CaseClassesTest extends FunSuite{
     d2.breed should be("Dob")
   }
 
+  //default values
   case class Person2(first: String, last: String, age: Int = 0, ssn: String = "")
 
   test("case classes can have default and named parameters"){
@@ -124,5 +125,50 @@ class CaseClassesTest extends FunSuite{
     p2.isInstanceOf[Serializable] should be(false)
   }
 
+  //Class
+  test("classes"){
+    class Calculator {
+      def sum(a: Int, b: Int) = a + b
+      def mul(a: Int, b: Int) = a * b
+      def div(a: Int, b: Int) = a / b
+    }
+
+    val calcular = new Calculator
+
+    def result(a: Int, b: Int, operator: String) = operator match {
+      case "+" => calcular.sum(a, b)
+      case "*" => calcular.mul(a, b)
+      case "/" => calcular.div(a, b)
+    }
+
+    result(3, 6, "+") should be(9)
+    result(3, 6, "*") should be(18)
+    result(3, 6, "/") should be(0)
+  }
+
+
+  test("other class"){
+    class Calculator(val a: Int = 0, val b: Int = 0, operator: String = "+") {
+      def sum = a + b
+      def mul = a * b
+      def div = a / b
+
+      def result = operator match {
+        case "+" => sum
+        case "*" => mul
+        case "/" => div
+      }
+
+      override def toString: String = s"($a, $b)"
+    }
+
+    val calcular = new Calculator(3,6, "+")
+    calcular.result should be(9)
+    println(calcular.toString)
+
+    val calcular2 = new Calculator(b=1)
+    calcular2.b should be(1)
+
+  }
 
 }

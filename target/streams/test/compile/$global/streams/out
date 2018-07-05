@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/s4n/Documents/scala-training/src/test/scala/ForExpressionsTests.scala:68:13: value map is not a member of Int[0m
-[0m[[0m[31merror[0m] [0m[0m      x <- x+1[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/s4n/Documents/scala-training/src/test/scala/TraitsTests.scala:156:12: StringIteratorTest$2 has a main method with parameter type Array[String], but TraitsTests.StringIteratorTest$2 will not be a runnable program.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  Reason: companion contains its own main method, which means no static forwarder can be generated.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    object StringIteratorTest extends App {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

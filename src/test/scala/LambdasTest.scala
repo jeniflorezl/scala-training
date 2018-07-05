@@ -1,3 +1,5 @@
+import java.util.function.BiFunction
+
 import org.scalatest.FunSuite
 import org.scalatest.Matchers._
 
@@ -13,7 +15,7 @@ class LambdasTest extends FunSuite {
 
     assert(result1 == 7)
 
-    //Recibe un Int y devuelve una Int
+    //Recibe un Int y devuelve un Int
     val lambda2 = new Function[Int, Int] {
       def apply(v1: Int): Int = v1 - 1
     }
@@ -97,6 +99,16 @@ class LambdasTest extends FunSuite {
     makeWhatEverYouLike(List("John", "Mark"), myName) should be(List("My name is John", "My name is Mark"))
 
     List("Scala", "Erlang", "Clojure") map (_.length) should be(List(5,6,7))
+  }
+
+  test("calculator"){
+    def calculo(a: Int, b: Int, operacion: (Int, Int) => Int) : Int ={
+      operacion(a,b)
+    }
+
+    def sum(a: Int, b: Int):Int = calculo(a, b, (a,b) => a + b)
+
+    sum(3,4) should be(7)
   }
 
 }

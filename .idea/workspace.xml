@@ -2,96 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46ab00fe-6d38-419d-a955-4c1594c591fe" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/scala/ForExpressionsTests.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/InfixPostfixTests.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/TraitsTests.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/InfixTypesPostfixTests.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ae1035f7bb130aa114a9$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ae1035f7bb130aa114a9.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ae1035f7bb130aa114a9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d3b43927d6f287cc7ef7$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d3b43927d6f287cc7ef7.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d3b43927d6f287cc7ef7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d6a451f88ed1530584dc$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d6a451f88ed1530584dc.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d6a451f88ed1530584dc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dc457b0397628a62d2f7$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dc457b0397628a62d2f7.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$dc457b0397628a62d2f7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec1b57ea7b9ce1c9767e$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec1b57ea7b9ce1c9767e.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$ec1b57ea7b9ce1c9767e.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-training-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-training-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-training-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/scala-training-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-scala-training-build-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/CaseClassesTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/CaseClassesTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/ForExpressionsTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/ForExpressionsTests.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/InfixPostfixTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/InfixPostfixTests.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/LambdasTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/LambdasTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/TraitsTests.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/TraitsTests.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala-training_2.12/0.1/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala-training_2.12/0.1/resolved.xml.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala-training_2.12/0.1/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/default/scala-training_2.12/0.1/resolved.xml.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-compile-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-compile.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-optional.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-provided.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-runtime-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-runtime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-scala-tool.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-test-internal.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/resolution-cache/reports/default-scala-training_2.12-test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/CaseClassesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/CaseClassesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/$global/$global/definedTestNames/data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/ForExpressionsTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/ForExpressionsTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/InfixPostfixTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/InfixPostfixTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/compileIncremental/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/definedTests/$global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/streams/succeeded_tests" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/CubeCalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/CubeCalculatorTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/LambdasTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/LambdasTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/ListsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/ListsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/MapsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/MapsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/ObjectsClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/ObjectsClass.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/OptionsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/OptionsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/PointTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/PointTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/SetsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/SetsTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-reports/TuplesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/TuplesTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=InfixPostfixTests/test/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/testOnly/isModule=false name=InfixPostfixTests/test/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/ForExpressionsTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/ForExpressionsTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-reports/InfixPostfixTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-reports/InfixPostfixTests.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -114,8 +44,8 @@
       <file leaf-file-name="CaseClassesTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/CaseClassesTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
+            <state relative-caret-position="267">
+              <caret line="171" column="3" selection-start-line="171" selection-start-column="3" selection-end-line="171" selection-end-column="3" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -126,10 +56,22 @@
       <file leaf-file-name="TraitsTests.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/TraitsTests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
+            <state relative-caret-position="232">
+              <caret line="160" column="30" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LambdasTest.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/LambdasTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,8 +80,8 @@
       <file leaf-file-name="ForExpressionsTests.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/ForExpressionsTests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="326">
+              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -147,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InfixPostfixTests.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InfixPostfixTests.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/InfixPostfixTests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="-139">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -159,29 +101,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinearSeqOptimized.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/collection/LinearSeqOptimized.scala">
+      <file leaf-file-name="InfixTypesPostfixTests.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/InfixTypesPostfixTests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="292" column="6" selection-start-line="292" selection-start-column="6" selection-end-line="292" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RichInt.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/runtime/RichInt.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/Solution.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="281">
+              <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,7 +116,7 @@
       <file leaf-file-name="PatternMatchingTest.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/PatternMatchingTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="-360">
               <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -203,15 +130,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TuplesTest.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/TuplesTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -256,7 +174,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/Tree.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/TreeTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ScalaSyntax.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/LambdasTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/MapsTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/RangesTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/PartiallyAppliedFunctionsTest.scala" />
@@ -264,10 +181,12 @@
         <option value="$PROJECT_DIR$/src/main/scala/Solution.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ImplicitsTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/TuplesTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/CaseClassesTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/TraitsTests.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/ForExpressionsTests.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/InfixPostfixTests.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/InfixTypesPostfixTests.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/CaseClassesTest.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/TraitsTests.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/LambdasTest.scala" />
       </list>
     </option>
   </component>
@@ -358,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.TuplesTest.test flatmap">
+  <component name="RunManager" selected="ScalaTest.LambdasTest.calculator">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -383,15 +302,9 @@
       <setting name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled" />
       <setting name="workingDir" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+    <configuration name="CaseClassesTest.mixins" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scala-training" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="consoleArgs" value="-usejavacp" />
-    </configuration>
-    <configuration name="ImplicitsTest.implicit 2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="scala-training" />
-      <setting name="path" value="ImplicitsTest" />
+      <setting name="path" value="CaseClassesTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -401,12 +314,12 @@
       <setting name="useUiWithSbt" value="false" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="ImplicitsTest" />
-      <setting name="testName" value="implicit 2" />
+      <setting name="path" value="CaseClassesTest" />
+      <setting name="testName" value="mixins" />
     </configuration>
-    <configuration name="ImplicitsTest.implicit 3" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="LambdasTest.calculator" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scala-training" />
-      <setting name="path" value="ImplicitsTest" />
+      <setting name="path" value="LambdasTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -416,8 +329,38 @@
       <setting name="useUiWithSbt" value="false" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="ImplicitsTest" />
-      <setting name="testName" value="implicit 3" />
+      <setting name="path" value="LambdasTest" />
+      <setting name="testName" value="calculator" />
+    </configuration>
+    <configuration name="TraitsTests.mixins 2" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="scala-training" />
+      <setting name="path" value="TraitsTests" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="TraitsTests" />
+      <setting name="testName" value="mixins 2" />
+    </configuration>
+    <configuration name="TraitsTests.mixins" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="scala-training" />
+      <setting name="path" value="TraitsTests" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="TraitsTests" />
+      <setting name="testName" value="mixins" />
     </configuration>
     <configuration name="TuplesTest.test flatmap" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="scala-training" />
@@ -433,21 +376,6 @@
       <setting name="testKind" value="Test name" />
       <setting name="path" value="TuplesTest" />
       <setting name="testName" value="test flatmap" />
-    </configuration>
-    <configuration name="TuplesTest.test for" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="scala-training" />
-      <setting name="path" value="TuplesTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="TuplesTest" />
-      <setting name="testName" value="test for" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -473,19 +401,19 @@
     </configuration>
     <list>
       <item itemvalue="sbt Task.Run program" />
-      <item itemvalue="Scala Console.Scala Console" />
-      <item itemvalue="ScalaTest.TuplesTest.test for" />
-      <item itemvalue="ScalaTest.ImplicitsTest.implicit 2" />
-      <item itemvalue="ScalaTest.ImplicitsTest.implicit 3" />
       <item itemvalue="ScalaTest.TuplesTest.test flatmap" />
+      <item itemvalue="ScalaTest.CaseClassesTest.mixins" />
+      <item itemvalue="ScalaTest.TraitsTests.mixins" />
+      <item itemvalue="ScalaTest.TraitsTests.mixins 2" />
+      <item itemvalue="ScalaTest.LambdasTest.calculator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.LambdasTest.calculator" />
+        <item itemvalue="ScalaTest.TraitsTests.mixins 2" />
+        <item itemvalue="ScalaTest.TraitsTests.mixins" />
+        <item itemvalue="ScalaTest.CaseClassesTest.mixins" />
         <item itemvalue="ScalaTest.TuplesTest.test flatmap" />
-        <item itemvalue="ScalaTest.TuplesTest.test for" />
-        <item itemvalue="Scala Console.Scala Console" />
-        <item itemvalue="ScalaTest.ImplicitsTest.implicit 3" />
-        <item itemvalue="ScalaTest.ImplicitsTest.implicit 2" />
       </list>
     </recent_temporary>
   </component>
@@ -547,24 +475,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ImplicitsTest_Implicits - 2018.07.03 at 16h 27m 40s.xml">
-      <configuration name="ImplicitsTest.Implicits" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ImplicitsTest_implicit_2 - 2018.07.03 at 16h 44m 11s.xml">
-      <configuration name="ImplicitsTest.implicit 2" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ImplicitsTest_implicit_3 - 2018.07.03 at 16h 53m 15s.xml">
-      <configuration name="ImplicitsTest.implicit 3" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ImplicitsTest_implicit_3 - 2018.07.03 at 16h 54m 33s.xml">
-      <configuration name="ImplicitsTest.implicit 3" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ImplicitsTest_implicit_3 - 2018.07.03 at 16h 55m 09s.xml">
-      <configuration name="ImplicitsTest.implicit 3" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="ImplicitsTest_implicit_3 - 2018.07.03 at 16h 57m 20s.xml">
-      <configuration name="ImplicitsTest.implicit 3" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="ImplicitsTest_implicit_3 - 2018.07.03 at 16h 57m 43s.xml">
       <configuration name="ImplicitsTest.implicit 3" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -577,6 +487,24 @@
     <history-entry file="TuplesTest_test_flatmap - 2018.07.03 at 17h 36m 22s.xml">
       <configuration name="TuplesTest.test flatmap" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="TraitsTests_mixins_2 - 2018.07.05 at 16h 15m 20s.xml">
+      <configuration name="TraitsTests.mixins 2" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TraitsTests_mixins_2 - 2018.07.05 at 16h 16m 07s.xml">
+      <configuration name="TraitsTests.mixins 2" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LambdasTest_calculator - 2018.07.05 at 17h 19m 36s.xml">
+      <configuration name="LambdasTest.calculator" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LambdasTest_calculator - 2018.07.05 at 17h 20m 01s.xml">
+      <configuration name="LambdasTest.calculator" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LambdasTest_calculator - 2018.07.05 at 17h 32m 56s.xml">
+      <configuration name="LambdasTest.calculator" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="LambdasTest_calculator - 2018.07.05 at 17h 33m 41s.xml">
+      <configuration name="LambdasTest.calculator" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="9429000" />
@@ -587,18 +515,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3262295" />
       <window_info anchor="right" id="sbt" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28032786" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28032786" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33114755" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26393443" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.114924185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19792499" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.3295082" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -612,7 +541,6 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32922536" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3262295" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -621,11 +549,10 @@
       <window_info anchor="bottom" id="Build" order="7" weight="0.32922536" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35081968" />
       <window_info anchor="right" id="sbt" order="4" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.3295082" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35081968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -648,6 +575,7 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
@@ -663,13 +591,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Point.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/TreeTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -802,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/LambdasTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/ListsTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-508">
@@ -841,9 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -861,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,28 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/TuplesTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="555">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/CaseClassesTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="122" column="17" selection-start-line="122" selection-start-column="17" selection-end-line="122" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/PatternMatchingTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -905,16 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/TraitsTests.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,15 +802,8 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/runtime/RichInt.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/collection/LinearSeqOptimized.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="292" column="6" selection-start-line="292" selection-start-column="6" selection-end-line="292" selection-end-column="6" />
+        <state relative-caret-position="615">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -946,10 +814,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/ForExpressionsTests.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/PatternMatchingTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="-360">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.6-sources.jar!/scala/collection/LinearSeqOptimized.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="292" column="6" selection-start-line="292" selection-start-column="6" selection-end-line="292" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/InfixTypesPostfixTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -958,10 +843,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/InfixPostfixTests.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="-139">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/ForExpressionsTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/CaseClassesTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="171" column="3" selection-start-line="171" selection-start-column="3" selection-end-line="171" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/TraitsTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="160" column="30" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/LambdasTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>

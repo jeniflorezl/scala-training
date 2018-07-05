@@ -21,3 +21,9 @@ testOnly InfixPostfixTests
 testOnly ForExpressionsTests
 testOnly InfixPostfixTests
 testOnly ForExpressionsTests
+testOnly InfixPostfixTests
+testOnly infixTypesPostfixTests
+testOnly InfixTypesPostfixTests
+testOnly TraitsTests
+testOnly CaseClassesTest
+testOnly TraitsTests
