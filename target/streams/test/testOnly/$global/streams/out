@@ -1,8 +1,8 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TraitsTests, org.scalatest.tools.Framework$$anon$1@64ba74d3, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 159 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 7[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ListsTest, org.scalatest.tools.Framework$$anon$1@3d7e2790, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 164 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 5[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	TraitsTests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ListsTest[0m

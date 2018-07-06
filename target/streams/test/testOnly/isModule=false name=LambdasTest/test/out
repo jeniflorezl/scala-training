@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mLambdasTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Testing lambdas[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Testing closure[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test like higher order function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Higher order function returning another function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test lambda map[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- calculator[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- returning a function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- nest methods[0m[0m

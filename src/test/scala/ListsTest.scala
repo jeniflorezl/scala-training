@@ -51,4 +51,17 @@ class ListsTest extends FunSuite{
     list3 ::: list8 should be(List(3,1,2,3,4,5,6))
   }
 
+  test("currying"){
+    val list = List(0,1,2,3,4,5,6,7,8,9)
+    val listFunc = list.foldLeft(List[Int]())_
+    val r = list.foldLeft(1)((x, y) => x + y*y)
+
+    println(r)
+    val squares = listFunc((xs, x) => xs:+ x*x)
+    println(squares.toString())
+
+    val cubes = listFunc((xs, x) => xs:+ x*x*x)
+    println(cubes.toString())
+  }
+
 }

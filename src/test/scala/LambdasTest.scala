@@ -105,10 +105,30 @@ class LambdasTest extends FunSuite {
     def calculo(a: Int, b: Int, operacion: (Int, Int) => Int) : Int ={
       operacion(a,b)
     }
-
     def sum(a: Int, b: Int):Int = calculo(a, b, (a,b) => a + b)
 
     sum(3,4) should be(7)
+  }
+
+  test("returning a function"){
+    def mul(a: Int, b: Int) = {
+      (x: Int, y: Int) => a*b + x*y
+    }
+
+    def result = mul(2,8)
+    val result2 = result(3,7) should be(37)
+  }
+
+  test("nest methods"){
+    def factorial(x: Int)={
+      def fact(x: Int, acc: Int): Int={
+        if (x <=1) acc
+        else fact(x-1, x * acc)
+      }
+      fact(x, 1)
+    }
+
+    factorial(2) should be(2)
   }
 
 }
