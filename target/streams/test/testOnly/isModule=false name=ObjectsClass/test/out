@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mObjectsClass:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Testing movie[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Testing companion object[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- companion objects[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- extractor objects *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  <(), the Unit value> was not equal to "jeni" (ObjectsClass.scala:86)[0m[0m

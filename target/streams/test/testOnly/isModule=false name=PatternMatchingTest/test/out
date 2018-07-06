@@ -1,0 +1,8 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mPatternMatchingTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testing pattern matching[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- pattern match lists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- pattern match 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- pattern 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- case class with pattern matching[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- case class with pattern matching Pattern Guards (condicionals)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- matching on the type only[0m[0m
