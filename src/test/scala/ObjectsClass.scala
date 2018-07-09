@@ -83,11 +83,17 @@ class ObjectsClass extends FunSuite{
       case CustommingMessage(name) => println(name)
       case _ => println("error")
     }
-    result should be("jeni")
 
     //asigning variable
     val otherWay = CustommingMessage("jeni")
     val CustommingMessage(name) = otherWay
+
+    CustommingMessage(name) should be("Hola jeni !!")
+
+    val nameCustommingMessage = CustommingMessage.unapply(otherWay).get
+
+    nameCustommingMessage should be("jeni")
+
   }
 
 }

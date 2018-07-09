@@ -1,5 +1,6 @@
 import org.scalatest.FunSuite
 import org.scalatest.Matchers._
+import scala.util.matching.Regex
 
 class PatternMatchingTest extends FunSuite{
   test("testing pattern matching"){
@@ -129,6 +130,16 @@ class PatternMatchingTest extends FunSuite{
     }
 
     val car = conveyance(Car("1 hr", 23000)) should be("Se demora 1 hr y cuesta 23000")
+
+  }
+
+  test("regular expressions"){
+    val patternNumber: Regex = "[0-9]".r
+
+    patternNumber.findFirstMatchIn("uidhdkjf") match {
+      case Some(_) => println("Password ok")
+      case None => println("Error password")
+    }
 
   }
 

@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mIterablesTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- iterator with list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- return un fixed-size iterable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- return a sliding window for travel the iterable[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- take 3 lastest elements[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- dropRight, drop element at right[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- zip stitch two iterables[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- zipWithIndex[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- same elements[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- prueba[0m[0m
