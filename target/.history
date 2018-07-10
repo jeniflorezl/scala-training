@@ -39,3 +39,4 @@ testOnly PatternMatchingTest
 testOnly ObjectsClass
 testOnly SequencesArraysTest
 testOnly IterablesTest
+testOnly TraversablesTest

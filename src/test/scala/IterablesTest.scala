@@ -80,11 +80,4 @@ class IterablesTest  extends FunSuite{
 
     set3 sameElements set4 should be(true)
   }
-
-  test("prueba"){
-    val array = Array("1", "2", "3")
-    val intArray = array.map(Integer.parseInt(_))
-    intArray.foreach(println(_))
-  }
-
 }
