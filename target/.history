@@ -40,3 +40,9 @@ testOnly ObjectsClass
 testOnly SequencesArraysTest
 testOnly IterablesTest
 testOnly TraversablesTest
+testOnly NamedDefaultArgumentsTest
+testOnly ExtractorsTest
+testOnly ByNameParameterTest
+testOnly RepeatedParametersTest
+testOnly ByNameParameterTest
+testOnly EmptyValuesTest

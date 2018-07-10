@@ -1,9 +1,14 @@
 #Successful Tests
-#Mon Jul 09 20:25:47 COT 2018
-TraversablesTest=1531185947405
-ObjectsClass=1531153955437
+#Tue Jul 10 16:56:18 COT 2018
 ListsTest=1530841991738
-LambdasTest=1530840085497
-PatternMatchingTest=1530905031471
-SequencesArraysTest=1531155462084
+NamedDefaultArgumentsTest=1531251713381
 IterablesTest=1531173077835
+EmptyValuesTest=1531259778258
+LambdasTest=1530840085497
+TraversablesTest=1531250512765
+SequencesArraysTest=1531155462084
+ExtractorsTest=1531255741069
+RepeatedParametersTest=1531258013002
+PatternMatchingTest=1530905031471
+ByNameParameterTest=1531258957519
+ObjectsClass=1531153955437

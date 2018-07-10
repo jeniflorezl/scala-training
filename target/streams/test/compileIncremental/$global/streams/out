@@ -1,30 +1,39 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\Jeniflorezl\Documents\Seven4n\scala-training\src\test\scala\TraversablesTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/s4n/Documents/scala-training/src/test/scala/EmptyValuesTest.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/s4n/Documents/scala-training/src/test/scala/ParentClassesTest.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(TraversablesTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(ParentClassesTest.Soldier, ParentClassesTest, ParentClassesTest.Pilot)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(TraversablesTest)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\Users\Jeniflorezl\Documents\Seven4n\scala-training\src\test\scala\TraversablesTest.scala)[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\Users\Jeniflorezl\Documents\Seven4n\scala-training\target\scala-2.12\test-classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(ParentClassesTest.Soldier, ParentClassesTest, ParentClassesTest.Pilot)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/s4n/Documents/scala-training/src/test/scala/EmptyValuesTest.scala, /home/s4n/Documents/scala-training/src/test/scala/ParentClassesTest.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /home/s4n/Documents/scala-training/target/scala-2.12/test-classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.7:compile for Scala 2.12.6[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 61631b0a for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2948f2ab for Scala compiler version 2.12.6[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_171\lib\resources.jar;C:\Program Files\Java\jre1.8.0_171\lib\rt.jar;C:\Program Files\Java\jre1.8.0_171\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_171\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_171\lib\jce.jar;C:\Program Files\Java\jre1.8.0_171\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_171\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_171\classes;C:\Users\Jeniflorezl\.sbt\boot\scala-2.12.6\lib\scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/s4n/.sbt/boot/scala-2.12.6/lib/scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\Jeniflorezl\Documents\Seven4n\scala-training\target\scala-2.12\test-classes;C:\Users\Jeniflorezl\Documents\Seven4n\scala-training\target\scala-2.12\classes;C:\Users\Jeniflorezl\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\bundles\scala-parser-combinators_2.12-1.1.0.jar;C:\Users\Jeniflorezl\.ivy2\cache\org.scalatest\scalatest_2.12\bundles\scalatest_2.12-3.0.5.jar;C:\Users\Jeniflorezl\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.0.5.jar;C:\Users\Jeniflorezl\.sbt\boot\scala-2.12.6\lib\scala-reflect.jar;C:\Users\Jeniflorezl\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.6079183 s[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/s4n/Documents/scala-training/target/scala-2.12/test-classes:/home/s4n/Documents/scala-training/target/scala-2.12/classes:/home/s4n/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.1.0.jar:/home/s4n/.ivy2/cache/org.scalatest/scalatest_2.12/bundles/scalatest_2.12-3.0.5.jar:/home/s4n/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.5.jar:/home/s4n/.sbt/boot/scala-2.12.6/lib/scala-reflect.jar:/home/s4n/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.354535853 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from EmptyValuesTest...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(EmptyValuesTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(EmptyValuesTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(EmptyValuesTest,ModifiedNames(changes = UsedName(assertDoesNotCompile,[Default]), UsedName(notify,[Default]), UsedName(EmptyValuesTest;init;,[Default]), UsedName(convertEquivalenceToBToAConstraint,[Default]), UsedName(notifyAll,[Default]), UsedName(pending,[Default]), UsedName(equals,[Default]), UsedName(toString,[Default]), UsedName(execute$default$6,[Default]), UsedName(asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(markup,[Default]), UsedName(execute$default$7,[Default]), UsedName(cancel,[Default]), UsedName(convertToEqualizer,[Implicit]), UsedName(withFixture,[Default]), UsedName(AssertionsHelper,[Default]), UsedName(intercept,[Default]), UsedName(registerTest,[Default]), UsedName(assertionsHelper,[Default]), UsedName(info,[Default]), UsedName(note,[Default]), UsedName(createCatchReporter,[Default]), UsedName(lowPriorityTypeCheckedConstraint,[Default]), UsedName(===,[Default]), UsedName(testNames,[Default]), UsedName(CheckingEqualizer,[Default]), UsedName(suiteName,[Default]), UsedName(isInstanceOf,[Default]), UsedName(yeOldeTestNames,[Default]), UsedName(convertEquivalenceToBToAConversionConstraint,[Default]), UsedName(execute$default$1,[Default]), UsedName(unconstrainedEquality,[Implicit]), UsedName(rerunner,[Default]), UsedName(execute,[Default]), UsedName(tags,[Default]), UsedName(hashCode,[Default]), UsedName(EmptyValuesTest,[Default]), UsedName(alert,[Default]), UsedName(testDataFor$default$2,[Default]), UsedName(synchronized,[Default]), UsedName(pendingUntilFixed,[Default]), UsedName(assert,[Default]), UsedName(newTestCanceledException,[Default]), UsedName(==,[Default]), UsedName(convertEquivalenceToAToBConstraint,[Default]), UsedName(lowPriorityConversionCheckedConstraint,[Default]), UsedName(assertTypeError,[Default]), UsedName(eq,[Default]), UsedName(fail,[Default]), UsedName(execute$default$3,[Default]), UsedName($asInstanceOf,[Default]), UsedName($init$,[Default]), UsedName(!=,[Default]), UsedName(ne,[Default]), UsedName(execute$default$4,[Default]), UsedName(getClass,[Default]), UsedName(runTests,[Default]), UsedName(conversionCheckedConstraint,[Default]), UsedName(nestedSuites,[Default]), UsedName(assertResult,[Default]), UsedName(!==,[Default]), UsedName(test,[Default]), UsedName(testDataFor,[Default]), UsedName(testsFor,[Default]), UsedName(runNestedSuites,[Default]), UsedName(convertEquivalenceToAToBConversionConstraint,[Default]), UsedName(finalize,[Default]), UsedName(convertToCheckingEqualizer,[Default]), UsedName(trap,[Default]), UsedName(NoArgTest,[Default]), UsedName(execute$default$5,[Default]), UsedName(execute$default$2,[Default]), UsedName(clone,[Default]), UsedName(defaultEquality,[Default]), UsedName(styleName,[Default]), UsedName(##,[Default]), UsedName(assume,[Default]), UsedName(withClue,[Default]), UsedName(ignore,[Default]), UsedName(assertThrows,[Default]), UsedName(Equalizer,[Default]), UsedName(run,[Default]), UsedName(expectedTestCount,[Default]), UsedName(registerIgnoredTest,[Default]), UsedName(suiteId,[Default]), UsedName($isInstanceOf,[Default]), UsedName(succeed,[Default]), UsedName(runTest,[Default]), UsedName(assertCompiles,[Default]), UsedName(newAssertionFailedException,[Default]), UsedName(typeCheckedConstraint,[Default]))) invalidates 1 classes due to The EmptyValuesTest has the following implicit definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(convertToEqualizer,[Implicit]), UsedName(unconstrainedEquality,[Implicit]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(EmptyValuesTest)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m

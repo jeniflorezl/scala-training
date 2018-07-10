@@ -1,7 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Jeniflorezl\Documents\Seven4n\scala-training\src\test\scala\ImplicitsTest.scala:14:12: ImplicitTest$2 has a main method with parameter type Array[String], but ImplicitsTest.ImplicitTest$2 will not be a runnable program.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  Reason: companion contains its own main method, which means no static forwarder can be generated.[0m
-[0m[[0m[33mwarn[0m] [0m[0m    object ImplicitTest extends App {[0m
-[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere was one deprecation warning (since 2.11.0); re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere were three feature warnings; re-run with -feature for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/s4n/Documents/scala-training/src/test/scala/ParentClassesTest.scala:39:19: Long does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m    catchNo.number(22)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
