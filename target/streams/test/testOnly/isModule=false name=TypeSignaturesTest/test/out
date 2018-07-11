@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTypeSignaturesTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- scala will infer the type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a trait can be declared contaning a type[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- class meta-information can be retrieved by class name by using classOf[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- isInstanceOf[className] is used to determine if an object reference is an instance of given class[0m[0m

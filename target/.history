@@ -46,3 +46,4 @@ testOnly ByNameParameterTest
 testOnly RepeatedParametersTest
 testOnly ByNameParameterTest
 testOnly EmptyValuesTest
+testOnly TypeSignaturesTest
