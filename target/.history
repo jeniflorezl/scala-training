@@ -46,3 +46,23 @@ testOnly ByNameParameterTest
 testOnly RepeatedParametersTest
 testOnly ByNameParameterTest
 testOnly EmptyValuesTest
+testOnly EmptyValuesTests
+testOnly EmptyValuesTest
+testOnl LiteralNumbersTest
+testOnly LiteralNumbersTest
+testOnly EnumerationsTest
+clean
+compile
+testOnly LiteralNumbersTest
+clean
+compile
+testOnly LiteralNumbersTest
+clean
+test
+testOnly LiteralNumbersTest
+testOnly Std.LiteralNumbersTest
+test
+testOnly Tutorial.TermsAndTypesTest
+testOnly Tutorial.StructuringInfoTest
+testOnly Tutorial.HigherFunctionsTest
+testOnly Std.ListsTest

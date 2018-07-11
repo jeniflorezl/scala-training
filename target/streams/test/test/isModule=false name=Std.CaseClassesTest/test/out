@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mCaseClassesTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- case classes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- HashCode method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- case classes toString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- safer alternatives for altering case classes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- case classes can have default and named parameters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- case classes can be a tuple[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- is serializable?[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- classes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- other class[0m[0m

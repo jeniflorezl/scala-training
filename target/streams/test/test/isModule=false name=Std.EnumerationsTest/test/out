@@ -1,0 +1,6 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mEnumerationsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- creating enumerations[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- defining value and string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- declaring in a one line[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- declaring only string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- extends the Enumeration by extending the Value class[0m[0m

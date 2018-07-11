@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mListsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testing lists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- testing lists by position[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- inmutables lists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Operations over list[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- currying[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- constructors of List[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- sorting lists[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- flatMap[0m[0m

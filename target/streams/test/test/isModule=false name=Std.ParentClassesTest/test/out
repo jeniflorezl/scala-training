@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mParentClassesTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- class hierarchy is linear, a class only extend from one parent class[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a class that extends from another is polymorphic[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- abstract class can not be instantiated and only inherited[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- a class can be placed inside an abstract class[0m[0m
