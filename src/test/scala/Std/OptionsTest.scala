@@ -63,4 +63,26 @@ class OptionsTest extends FunSuite{
     }
     assert(result2===1)
   }
+
+  test("manipulating options"){
+    def cube(x: Double): Option[Double] = Some(x * x * x)
+
+    def foo(x: Double): String = cube(x) match {
+      case None => "no result"
+      case Some(y) => y.toString
+    }
+
+    val result = foo(4.5)
+    result should be("91.125")
+  }
+
+  test("filter"){
+    val option : Option[String] = Some("Scala")
+    option.filter(x => x.startsWith("f")) should be(None)
+  }
+
+  test("flatmap"){
+    val option : Option[String] = Some("Scala")
+    option.flatMap(x => Some(x + " is cool")) should be(Some("Scala is cool"))
+  }
 }

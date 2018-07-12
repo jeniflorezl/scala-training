@@ -90,7 +90,7 @@ class ExtractorsTest extends FunSuite{
 
     val result = camaro match {
       case camaro(make, model) ⇒ "make: %s, model: %s".format(make, model)
-      case _ ⇒ "unknown"
+      case _ => "unknown"
     }
 
     result should be("make: Chevy, model: Camaro")
