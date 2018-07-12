@@ -1,8 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mSequencesArraysTest:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- creating an array from a list[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- any sequence can be convert to list[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- create sequence from a for loop[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- create sequence from a for loop with filter[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- filter any sequence base on a predicate[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- filtered arrays[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- map to values with a function[0m[0m
