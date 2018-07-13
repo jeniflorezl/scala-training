@@ -65,4 +65,28 @@ class OOPTest extends FunSuite{
     println(rational.dem)
   }
 
+  test("abstract class"){
+    abstract class Reducer(init: Int){
+      def combine(x: Int, y: Int) :Int
+      def reduce(xs: List[Int]): Int = xs match {
+        case Nil => init
+        case y :: ys => combine(y, reduce(ys))
+      }
+    }
+
+    object Product extends Reducer(1){
+      def combine(x: Int, y: Int) = x * y
+    }
+
+    object Sum extends Reducer(0){
+      def combine(x: Int, y: Int) = x + y
+    }
+
+    val nums = List(1)
+    println(Product.reduce(nums))
+    println(Sum.reduce(nums))
+  }
+
+
+
 }
