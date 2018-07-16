@@ -66,6 +66,40 @@ class ForExpressionsTests extends FunSuite{
     result should be(List(2,4))
   }
 
+  test("test 2"){
+    case class User(name: String, age: Int)
+
+    val userBase = List(User("Adrian", 23),
+      User("Leandro", 32),
+      User("Cristian", 18),
+      User("Daniela", 25))
+
+    val result = for(user <- userBase if (user.age > 28 && user.age <= 32)) yield user
+    result should be(List(User("Leandro", 32)))
+  }
+
+  test("foo"){
+    def foo(n: Int, v: Int) =
+      for {
+        i <- 0 until n
+        j <- i until n if (i + j == v)
+      } yield (i, j)
+
+
+    foo(10,10) foreach {
+      case(i,j) => println(s"($i, $j)")
+    }
+
+    //without yield
+    def foo2(n: Int, v: Int) =
+      for {
+        i <- 0 until n
+        j <- i until n if (i + j == v)
+      } println(s"($i, $j)")
+
+    foo2(10,10)
+  }
+
 
 
 

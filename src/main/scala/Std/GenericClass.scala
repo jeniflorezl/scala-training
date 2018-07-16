@@ -10,5 +10,6 @@ class GenericClass[A] {
       elements = elements.tail
       currentTop
     }
+    def retrieve = elements
   }
 

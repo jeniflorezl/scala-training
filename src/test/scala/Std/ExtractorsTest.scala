@@ -3,6 +3,8 @@ package Std
 import org.scalatest.FunSuite
 import org.scalatest.Matchers._
 
+import scala.util.Random
+
 class ExtractorsTest extends FunSuite{
 
   test("extractor object"){
@@ -52,6 +54,7 @@ class ExtractorsTest extends FunSuite{
     val result = singri match {
       case Employee("Singri", None, x) => "Yay, Singri %s! with no middle name!".format(x)
       case Employee("Singri", Some(x), _) => "Yay, Singri with a middle name of %s".format(x)
+      case Employee("Keerthi", None, "Singri") => "Yay!"
       case _ => "I don't care, going on break"
     }
 
@@ -94,6 +97,34 @@ class ExtractorsTest extends FunSuite{
     }
 
     result should be("make: Chevy, model: Camaro")
+  }
+
+  test("new extractor object"){
+    object CustomerID{
+      def apply(s: String) = s"$s--${Random.nextLong}"
+
+      def unapply(customerID: String): Option[String] = {
+        val stringArray : Array[String] = customerID.split("--")
+        if (stringArray.tail.nonEmpty) Some(stringArray.head) else None
+      }
+    }
+
+    val customerID1 = CustomerID("Scala")
+    val result = customerID1 match {
+      case CustomerID(s) => s
+      case _ => "Could not extract CustomerID"
+    }
+
+    result should be("Scala")
+
+    //assing a value
+    val CustomerID(s) = customerID1
+    println(s)
+
+    //this is equivalent
+    val s2 = CustomerID.unapply(customerID1).get
+    s2 should be("Scala")
+
   }
 
 }
