@@ -53,11 +53,43 @@ class ListsTest extends FunSuite{
     list3 ::: list8 should be(List(3,1,2,3,4,5,6))
   }
 
+  test("add elements to list"){
+    //start
+    val l1 = List(1,2,3)
+    val l2 = 4 :: l1
+    l1 should be(List(1,2,3))
+    l2 should be(List(4,1,2,3))
+
+
+    //end
+    val l3 = List(1,2,3)
+    val l4 = l1 :+ 4
+    l3 should be(List(1,2,3))
+    l4 should be(List(1,2,3,4))
+  }
+
+  test("drop elements"){
+    val list = List(1,2,3,4)
+    //drop to left
+    val drop = list.drop(1)
+    drop should be(List(2,3,4))
+    val dropRight = list.dropRight(2)
+    dropRight should be(List(1,2))
+  }
+
+  test("consultando primer elemento de la lista"){
+    //forma insegura
+    val lista = List(1,2,3,4)
+    assertResult(1){lista.head}
+
+    val lista2 = List()
+    assertThrows[NoSuchElementException]{lista2.head}
+  }
+
   test("currying"){
     val list = List(0,1,2,3,4,5,6,7,8,9)
     val listFunc = list.foldLeft(List[Int]())_
     val r = list.foldLeft(1)((x, y) => x + y*y)
-
     println(r)
     val squares = listFunc((xs, x) => xs:+ x*x)
     println(squares.toString())
@@ -73,7 +105,22 @@ class ListsTest extends FunSuite{
     val num = 1 :: 2 :: 3 :: 4 :: Nil
     val num2 = Nil.:: (4).:: (3).:: (2).:: (1)
 
+    num should be(List(1,2,3,4))
     num == num2 should be(true)
+  }
+
+  test("lista de un solo tipo"){
+    assertDoesNotCompile("val list: List[Int] = List(1,2,3,\"hola\")")
+  }
+
+  test("una lista se puede recorrer imperativamente"){
+    val lista = List(1,2,3)
+    val result = {
+      var sum = 0
+      lista.foreach(x => sum += x)
+      sum
+    }
+    result should be(6)
   }
 
   test("sorting lists"){

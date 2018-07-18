@@ -91,4 +91,62 @@ class MapsTest extends FunSuite{
 
     myMap1.equals(myMap2) should be(true)
   }
+
+  test("new test map"){
+    val mapa = Map("1" -> 1, "2" -> 2, "4" -> 4)
+    val res = for {
+      valor <- mapa
+      if valor._2 % 2 == 0
+    }yield valor
+    res should be(Map("2" -> 2, "4" -> 4))
+    assert(res.values.size == 2)
+    assert(res.values.headOption == Some(2))
+  }
+
+  test("adding to map"){
+    val map = Map(1 -> "Ricardo", 2 -> "Santiago", 3 -> "Sara")
+    assertResult(Map(1 -> "Ricardo", 2 -> "Santiago", 3 -> "Sara", 4 -> "Andrea")){
+      map + (4 -> "Andrea")
+    }
+  }
+
+  test("headOption map"){
+    val map = Map("Antioquia" -> "Medellin", "Cundinamarca" -> "Bogota")
+    assertResult(Some(("Antioquia" -> "Medellin"))){
+      map.headOption
+    }
+  }
+
+  test("verification with tupla"){
+    val map = Map("Antioquia" -> "Medellin", "Cundinamarca" -> "Bogota")
+    //cada elemento se comporta como una tupla
+    assertResult(("Antioquia")){
+      val headO = map.headOption
+      headO.get._1
+    }
+  }
+
+  test("splitAt to map"){
+    val map = Map("Antioquia" -> "Medellin", "Cundinamarca" -> "Bogota", "Risaralda" -> "Pereira")
+    val (map2, map3) = map.splitAt(2)
+    assert(map2 == Map("Antioquia" -> "Medellin", "Cundinamarca" -> "Bogota"))
+     assert(map3 == Map("Risaralda" -> "Pereira"))
+  }
+
+  test("filter en un map"){
+    val map = Map(1 -> "Hola", 2 -> "Hi", 3 -> "Bye", 4 -> "GoodBye")
+    val res = map.filter(m => m._2.startsWith("H"))
+    assert(res == Map(1 -> "Hola", 2 -> "Hi"))
+  }
+
+  test("map with Maps"){
+    val map = Map(1 -> "Hola", 2 -> "Hi", 3 -> "Bye", 4 -> "GoodBye")
+    val res = map.map(m => (m._1, m._2 + " !"))
+
+    assert(res == Map(1 -> "Hola !", 2 -> "Hi !", 3 -> "Bye !", 4 -> "GoodBye !"))
+
+    //with mapValues
+    val res2 = map.mapValues(m => m + " !")
+    assert(res2 == Map(1 -> "Hola !", 2 -> "Hi !", 3 -> "Bye !", 4 -> "GoodBye !"))
+  }
 }
