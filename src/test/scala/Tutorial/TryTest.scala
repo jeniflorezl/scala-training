@@ -84,4 +84,57 @@ class TryTest extends FunSuite{
 
   }
 
+  def dividir(a: Int, b: Int): Int = {
+    a/b
+  }
+
+  test("for comp"){
+
+    val res = Try{dividir(2,0)}
+
+    val res2 = Try{dividir(4,2)}
+
+    //si alguno falla el resultado es failure
+    val res3 = for {
+      r <- res
+      r1 <- res2
+    } yield r + r1
+
+    assert(res3.isFailure)
+
+  }
+
+  test("failure se debe poder map"){
+    //sigue siendo failure
+    val res = Try{dividir(2,0)}
+    val res2 = res.map(x => 3)
+    println(res2)
+  }
+
+  test("recover"){
+    val res = Try{dividir(2,0)}.map(x => 3).recover{case e: Exception => {
+      "Ya estoy bien, soy success"
+    }}
+
+    assert(res == Success("Ya estoy bien, soy success"))
+  }
+
+  test("recover with"){
+    val res = Try{dividir(2,0)}.flatMap(x => Try(3)).recoverWith{case e: Exception => {
+      Try{dividir(2,1)}
+    }}
+
+    assert(res == Success(2))
+  }
+
+  test("convert to option"){
+    val res = Try{dividir(2,1)}
+    val res2 = Try{dividir(2,0)}
+    val opt1 = res.toOption
+    val opt2 = res2.toOption
+    opt1 should be(Some(2))
+    opt2 should be(None)
+  }
+
+
 }

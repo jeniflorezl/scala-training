@@ -5,7 +5,7 @@ import org.scalatest.Matchers._
 
 class ObjectsClass extends FunSuite{
 
-  class Movie(val name: String, val year: Short)
+  case class Movie(val name: String, val year: Short)
 
   object Movie{
     def academyAwardBestMoviesForYear(x: Short) = {
@@ -20,6 +20,8 @@ class ObjectsClass extends FunSuite{
 
   test("Testing movie"){
     val prueba = Movie.academyAwardBestMoviesForYear(1930) getOrElse("No found")
+    val res = Movie.academyAwardBestMoviesForYear(1930) getOrElse("No found")
+    Movie.academyAwardBestMoviesForYear(1930) getOrElse("No found") should be(Movie("The inception", 1930))
     Movie.academyAwardBestMoviesForYear(1930).get.name should be("The inception")
     Movie.academyAwardBestMoviesForYear(1780) getOrElse("No found") should be("No found")
   }
