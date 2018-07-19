@@ -107,6 +107,35 @@ class EitherTest extends FunSuite{
     result2 should be(100)
   }
 
+  test("prueba either"){
+    val either: Either[Int, Int] = Right(3)
+    val either2: Either[Int, Int] = Right(4)
+    val either3: Either[Int, Int] = Right(4)
+    val either4: Either[Int, Int] = Left(5)
+    val res = for {
+      e <- either
+      e1 <- either2
+      e2 <- either3
+      e3 <- either4
+    } yield e + e1 + e2 + e3
+
+    assert(res == Left(5))
+  }
+
+  test("derecha si es par"){
+    def par(x: Int):Either[String, Int] = {
+      if (x %2==0) Right(x) else Left("Es impar")
+    }
+
+    val res = for {
+      x <- par(2)
+      y <- par(2)
+      z <- par(2)
+      t <- par(2)
+    } yield x + y + z + t
+    assert(res == Right(8))
+  }
+
 
 
 }
